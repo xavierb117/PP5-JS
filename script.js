@@ -1,6 +1,9 @@
 document.getElementById('click').onclick = function()
 {
     let fName = document.getElementById('password').value;
-    document.getElementById('output').innerHTML = 
-    "Hello, " + fName + "!";
+    let passwordNeeds[] = ["!", "@","#","$","%","^","&","*",]; 
+
+    for(let i = 0; i < passwordNeeds.length-1; i++){
+        
+    }
 }
