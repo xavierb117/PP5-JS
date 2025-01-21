@@ -1,0 +1,12 @@
+.main {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    background-color: lightblue;
+    padding: 0 0px 10px;
+    border-radius: 30px;
+}
+
+h1 {
+    color: green;
+}
