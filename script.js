@@ -1,7 +1,6 @@
 document.getElementById('click').onclick = function()
 {
-    // Get the value from the text box
-    let fName = document.getElementById('name').value;
+    let fName = document.getElementById('password').value;
     document.getElementById('output').innerHTML = 
     "Hello, " + fName + "!";
 }
