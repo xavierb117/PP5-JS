@@ -11,3 +11,13 @@
 h1 {
     color: green;
 }
+
+.error {
+    color: red;
+    display: none;
+}
+
+#valid {
+    color: green;
+    display: none;
+}
