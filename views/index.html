@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Password Checker</h1>
+        <label>Enter password: 
+            <input type="text" id="password">
+        </label>
+        <button id="button">Check Password</button>
+
+        <div id="error-container">
+            <p id="valid">Password is valid! :D</p>
+            <p id="not-valid" class="error">Password is not Valid</p>
+            <p id="too-short" class="error">Password must have at least 8 characters</p>
+            <p id="no-special" class="error">Password must have at least 1 special character</p>
+            <p id="has-space" class="error">Password must not contain a space</p>
+            <p id="no-upper" class="error">Password must have at least 1 uppercase letter</p>
+            <p id="no-lower" class="error">Password must have at least 1 lowercase letter</p>
+            <p id="no-digit" class="error">Password must have at least 1 digit</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
